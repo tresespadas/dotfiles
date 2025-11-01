@@ -1,0 +1,5 @@
+rmv()
+{
+    sed -i "s/^title=.*/title=$1/" "$2"
+    nohup remote-viewer "$2" &>/dev/null &
+}
