@@ -6,3 +6,6 @@ set shiftwidth=2
 set smarttab
 set autoindent
 set smartindent
+set number
+set relativenumber
+syntax on " Revisar si da problemas
