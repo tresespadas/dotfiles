@@ -1,5 +1,7 @@
 rmv()
 {
     sed -i "s/^title=.*/title=$1/" "$2"
+    GDK_BACKEND=x11 \
+    GDK_SCALE=1 \
     nohup remote-viewer "$2" &>/dev/null &
 }
