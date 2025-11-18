@@ -1,6 +1,14 @@
 add_newline = true
 command_timeout = 200
-format = "[$directory$git_branch$git_status]($style)$character"
+
+# Added $username to format so root shows a special icon
+format = "[$username]($style)[$directory$git_branch$git_status]($style)$character"
+
+[username]
+# Only show for root
+show_always = false
+format = "[⚡ root ](bold red)"
+disabled = false
 
 [character]
 error_symbol = "[✗](bold cyan)"
@@ -30,3 +38,4 @@ stashed    = ""
 staged     = ""
 renamed    = ""
 deleted    = ""
+
