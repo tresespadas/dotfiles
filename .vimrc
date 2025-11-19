@@ -9,3 +9,5 @@ set smartindent
 set number
 set relativenumber
 syntax on " Revisar si da problemas
+nnoremap <Tab> :bnext<CR>
+nnoremap <S-Tab> :bprevious<CR>
