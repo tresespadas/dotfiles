@@ -1,6 +1,6 @@
 add_newline = true
-command_timeout = 200
-format = "[$directory$git_branch$git_status]($style)$character"
+command_timeout = 2000
+format = "[$directory$git_branch$git_status$python]($style)$character"
 
 [character]
 error_symbol = "[✗](bold cyan)"
@@ -30,3 +30,6 @@ stashed    = ""
 staged     = ""
 renamed    = ""
 deleted    = ""
+
+[python]
+format = 'via [${symbol}(${version} )(\($virtualenv\) )]($style)'
