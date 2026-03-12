@@ -51,6 +51,3 @@ require("lazy").setup({
     },
   },
 })
-
--- Colorscheme de Moonfly
-vim.cmd [[colorscheme moonfly]]
