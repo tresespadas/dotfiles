@@ -14,9 +14,6 @@ Managed with [chezmoi](https://www.chezmoi.io/).
 | `~/.config/starship.toml`        | Starship prompt                   |
 | `~/.config/alacritty/`           | Alacritty terminal                |
 | `~/.config/nvim/`                | Neovim (LazyVim)                  |
-| `~/.config/rofi/`                | Rofi launcher                     |
-| `~/.config/gtk-3.0/`             | GTK3 tweaks (GNOME Terminal)      |
-| `~/.config/hypr/monitors.conf`   | Hyprland monitor layout           |
 
 ## Install chezmoi
 
