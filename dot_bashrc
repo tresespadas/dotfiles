@@ -12,4 +12,4 @@ if [ -f ~/.bash_scripts ]; then
 fi
 
 # Si tienes starship instalado
-# evail "$(startship init bash)"
+# eval "$(starship init bash)"
