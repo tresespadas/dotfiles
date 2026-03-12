@@ -1,0 +1,11 @@
+[Libinput][1133][49298][Logitech G203 LIGHTSYNC Gaming Mouse]
+PointerAccelerationProfile=1
+ScrollFactor=0.75
+
+[Libinput][1133][49298][Logitech G203 LIGHTSYNC Gaming Mouse Keyboard]
+ScrollFactor=0.3
+
+[Libinput][13364][787][Keychron Keychron V1 Mouse]
+PointerAcceleration=-1.000
+PointerAccelerationProfile=1
+ScrollFactor=0.1
