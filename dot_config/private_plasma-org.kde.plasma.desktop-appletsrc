@@ -284,6 +284,10 @@ plugin=org.kde.plasma.cameraindicator
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][3][Applets][8][Applets][14][Configuration][General]
+allDevices=true
+removableDevices=false
+
 [Containments][3][Applets][8][Applets][15]
 immutability=1
 plugin=org.kde.kscreen

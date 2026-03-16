@@ -342,6 +342,10 @@ _launch=none
 [services][org.kde.krunner.desktop]
 _launch=Meta+Space
 
+[services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
+
 [services][systemsettings.desktop]
 _launch=Tools\t
 
